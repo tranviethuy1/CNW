@@ -1,0 +1,50 @@
+.fa-user-circle{
+	font-size: 30px;
+	color: #2c6ce1;
+}
+.btn-user{
+	background: none!important;
+	border: none!important;
+}
+.dropdown-item{
+	color: #2c6ce1!important;
+}
+.contact--us__title{
+	font-size: 24px;
+}
+.contact--us input{
+	padding: 15px;
+    border-radius: 50px;
+}
+input[type="email"], textarea {
+	outline: none;
+	box-shadow:none !important;
+}
+input[type="text"], textarea {
+	outline: none;
+	box-shadow:none !important;
+}
+::placeholder {
+ 	font-size: 14px!important;
+}
+.btn--submit > input{
+	float: right;	
+	background: #007bff;
+	border: none;
+	color: white;
+	width: 20%;
+}
+.contact--us{
+	border-top: 1px solid #2C6CE1;
+	padding: 40px 0px 40px 0px;
+	font-family: 'Catamaran', sans-serif;
+	color: #2C6CE1;
+	line-height: 0.8;
+}
+.form--email i {
+	margin-right: 10px;
+	margin-left: 5px;
+}
+.form--email textarea{
+	height: 220px;
+}

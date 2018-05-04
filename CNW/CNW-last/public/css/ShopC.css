@@ -1,0 +1,221 @@
+.Casies{
+	margin-top: 100px;
+}
+
+.selector{
+	width: 20%;
+	float: right;
+	font-family: 'Catamaran', sans-serif;
+	text-transform: uppercase;
+	border: 1px solid #2c6ce1;
+	color: #2c6ce1;
+	display: none;
+}
+.selector option{
+	max-width: 100px!important;
+}
+.Casies--shopby{
+	font-family: 'Catamaran', sans-serif;
+	color: #1d63e3;
+	display: none;
+}
+
+.ShopBy__title{
+	border-bottom: 1px solid #3270e16b;
+	margin: 20px 0px;
+}
+.ShopBy__button{
+	border-bottom: 1px solid #3270e16b;
+	margin: 0px 0px 20px 0px;
+}
+.ShopBy__color{
+	position: relative;
+}
+.color--arrow{
+	position: absolute;
+	top: 10%;
+	right: 0;
+	cursor: pointer;
+}
+.Casies--item{
+	padding: 30px 70px;
+	overflow: hidden;
+}
+.Casies--item__in4{
+	margin-top: 30px;
+	text-align: center;
+	font-family: 'Catamaran', sans-serif;
+}
+.Casies--item__in4 p{
+	margin: 0px;
+	font-size: 16px;
+	font-weight: bold;
+}
+.Casies--item__in4 span{
+	font-size: 14px;
+}
+.Casies--item a{
+	display: inline-block;
+	position: relative;
+	color: black;
+	font-family: 'Catamaran', sans-serif;
+
+}
+.Casies--item__view{
+	position: absolute;
+	bottom: -30px;
+	left: 0;
+	text-align: center;
+	width: 100%;
+	padding: 10px 0px;
+	background: #ffffff7d;
+	transition: 0.6s;
+	opacity: 0;
+}
+.Casies--item:hover .Casies--item__view{
+	bottom: 0;
+	transition: 0.4s;
+	opacity: 1
+}
+ .color-selection>a{
+    color: black;
+    font-weight: 900;
+}
+.color-selection{
+	display: inline-block;
+	margin: 4px 20px 10px 0;
+    border-bottom: none!important;
+	font-size: 13px;
+    width: 39px;
+    height: 39px;
+    border: 1px solid #d0bebe21;
+    border-radius: 50%;
+    text-align: center;
+    padding-top: 9px;
+}
+.color-1 {
+	background: rgb(84, 192, 228);
+}
+.color-2 {
+	background: rgba(250, 226, 117, 1);
+}
+.color-3 {
+	background: rgb(243, 96, 96);
+}
+.color-4 {
+	background: rgb(146, 222, 97);
+}
+.color-5 {
+	background: rgb(255, 165, 0);
+}
+.color-6 {
+	background: rgb(213, 95, 175);
+}
+.color-7 {
+	background: rgb(59, 164, 241);
+}
+.color-8 {
+	background: rgb(228, 230, 234);
+}
+.color-9 {
+	background: linear-gradient(to right, red,orange,yellow,green,blue,indigo,violet);
+}
+.search_product{
+	margin-top: -70px;margin-bottom: 10px;
+}
+.text_search >input{
+	border-radius: 28px;height: 53px;
+}
+.submit_search{
+	margin-left: -66px;
+    margin-top: 2px;
+    border-left: 1px solid #ced4da;
+    height: 50px;
+    border-radius: 29px;
+}
+.submit_search>button{
+	border: none;background: none;color: #6c6bbf;font-size: 18px;
+}
+.submit_search>button>i{
+	margin-top: 14px;
+    margin-left: -2px;
+}
+/*
+.color-selection >span{
+	border:1px solid blue;
+	width: 10px;
+	height: 10px;
+	border-radius: 50%
+}
+*/
+/*.color-selection span {
+    height: 100%; 
+    width: 100%;
+    border-radius: 50%;
+    display: block;
+    cursor: pointer;
+    position: relative;
+    border: 1px solid whitesmoke;
+}
+
+.color-selection {
+    display: inline-block;
+    width: 16px;
+    float: left;
+    height: 16px;
+    margin: 4px 24px 10px 0;
+    border-bottom: none!important;
+}
+.color-1 > a{
+	background: rgb(84, 192, 228);
+}
+.color-2 > span{
+	background: rgba(250, 226, 117, 1);
+}
+.color-3 > span{
+	background: rgb(243, 96, 96);
+}
+.color-4 > span{
+	background: rgb(146, 222, 97);
+}
+.color-5 > span{
+	background: rgb(255, 165, 0);
+}
+.color-6 > span{
+	background: rgb(213, 95, 175);
+}
+.color-7 > span{
+	background: rgb(59, 164, 241);
+}
+*/
+.ShopBy__filter{
+	font-family: 'Catamaran', sans-serif;
+}
+
+@media (min-width: 576px) {
+	
+}
+
+
+@media (min-width: 768px) { 
+	.Casies--item{
+		padding: 30px 40px;
+	}
+	.selector{
+		display: inline-block;
+		width: 30%;
+	}
+	.Casies--shopby{
+		display: inline-block;
+	}
+}
+
+
+@media (min-width: 992px) { 
+
+}
+
+
+@media (min-width: 1200px) { 
+
+ }

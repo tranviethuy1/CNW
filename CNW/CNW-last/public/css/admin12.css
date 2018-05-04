@@ -1,0 +1,250 @@
+.backgroup{
+	background: url(phone-cases.jpg);
+	background-repeat: no-repeat;
+}
+
+a:hover{
+	text-decoration: none;
+}
+ul{
+	padding: 0;
+	margin: 0;
+}
+ul:before,
+ul:after{
+	display: table;
+	content: '';
+}
+ul:after{
+	clear: both;
+}
+li{
+	list-style: none;
+	float: left;
+	padding: 15px 5px;
+
+}
+.menubar--item{
+	font-family: 'Poppins', sans-serif;
+	font-size: 20px;
+}
+.menubar--item:hover .menubar--link{
+	color: #8b33b7;
+	border-bottom: 1px solid #8b33b7;
+}
+
+
+    body{
+    	width: 100vw;
+    	margin:0px;
+    	padding: 0px;
+    }
+    .admin{
+    	margin: 2%;
+        padding: 2%;
+    }
+    .panel-default{
+    	width: 100%;
+    }
+    .panel-heading>h3{
+    	width: 100%;
+    	padding-left: 1%;
+    	font-size: 2.8rem;
+    	font-family: 'Black Han Sans', sans-serif;
+    	color: black;
+
+    }
+    .panel-heading .name_admin{
+    	padding-left: 1%;
+    }
+    .panel-body{
+    	width: 100%;
+    }
+    .logout_admin{
+		float: right;
+		margin-top: -5%;
+	    background: #cabebe30;
+	    border-radius: 2rem;
+	}
+	.content_logout>a{
+		text-decoration: none;
+	}
+    .button_logout{
+    	font-size: 2.2rem;
+    	color: blue;
+    	background: #e6e4d6;
+    }
+	table tr td{
+		text-align: center;
+	}
+	.title{
+		position: relative;
+	}
+	.search{
+		position: absolute;
+		top: -6%;
+		right: 4%;
+		width: 20%;
+	}
+	.search_title>i{
+		position: absolute;
+	    right: -14%;
+	    font-size: 2.7rem;
+	    color: #8888da;
+	}
+	.search_content>input{
+		border-radius: 20px;
+	}
+	.show_sort_product{
+		position: absolute;
+		top: -6%;
+	    font-size: 16px;
+	    color:#5b9665;
+	    font-family: 'Poppins', sans-serif;
+	}
+	.form--pick > select{
+		background: white;
+
+		padding: 8px;
+		border-radius: 5px;
+		border: 1px solid #337ab7;
+		color: #337ab7;
+	}
+	.btn--pick{
+		padding: 6px 5px 6px 5px;
+		border-radius: 5px;
+		color: #337ab7;
+		border: 1px solid #337ab7;
+		background-color: white!important;
+	}
+	.form-group{
+		width: 88%;
+		padding: 2px 0px;
+	}
+	.form-control{
+		width: 100%!important;
+		padding: 18px 15px;
+		display: inline-block;
+	}
+	.btn--search{
+		width: 10%;
+		padding: 8px;
+	}
+	.form-inline{
+		padding: 5px;
+	}
+	form{
+		font-size: 20px;
+	}
+	.new_product{
+		width: 100%;
+		margin-top: 30px;
+	}
+	.new_product>div>a{
+		font-size: 2.7rem;
+		border: 1px solid #9d64a59c;
+	    color: #bc3bd2;
+	}
+	.table_data{
+		width: 100%;
+		margin-top: 2%;
+	}
+	.hinhanh{
+		/* So với thằng cha chứa nó chính là td*/
+		width: 20%;height: 20%;
+	}
+	.selectpicker option{
+		text-align: center;
+		font-size: 2rem;
+	}
+	.page_title{
+		font-size: 1.2rem;
+	    font-weight: 700;
+	    font-style: oblique;
+	}
+	.page_number{
+		float: right;
+	}
+    @media(max-width: 576px){
+    	/* Giao diện cho di động */
+    	*{}
+    	.new_product {
+		    margin-top: 26%;
+		}
+        .panel-heading>h3{
+	    	padding-left: 7%;
+	    	font-size: 1.7rem;
+        }
+        .logout_admin{
+			float: right;
+		    margin-top: -15%;
+	    }
+	    .button_logout{
+	    	font-size: 1.7rem;
+        }
+        .show_sort_product{
+        	top: -15%;
+            font-size: 1.7rem;
+        }
+        .search{
+			position: absolute;
+			top: -15%;
+		    right: 6%;
+		    width: 38%;
+		}
+		.search_title>i{
+			position: absolute;
+			top: 20%;
+		    right: -20%;
+		    font-size: 1.7rem;
+		    color: #8888da;
+		}
+		.new_product>div>a {
+		    font-size: 1.4rem;
+		}
+		.table_data{
+			width: 100%;
+			margin-top: 5%;
+	    }
+	    th,td{
+	    	font-size:0.3rem;
+	    }
+	    .tool{
+	    	font-size: 0.4rem;
+	    }
+	    .hinhanh{
+		   width: 15%;height: 5%;
+	    }
+    }
+    @media (min-width: 768px) and (max-width: 1024px){
+    	.logout_admin{
+			float: right;
+		    margin-top: -10%;
+	    }
+	    .show_sort_product{
+        	top: -4.4%;
+            font-size: 1.7rem;
+        }
+        .search{
+			position: absolute;
+			top: -4.4%;
+		    right: 6%;
+		    width: 38%;
+		}
+    }
+    @media (min-width: 1024px) and (max-width: 1300px){
+    	.logout_admin{
+			float: right;
+		    margin-top: -7%;
+	    }
+	    .show_sort_product{
+        	top: -5%;
+            font-size: 1.7rem;
+        }
+        .search{
+			position: absolute;
+			top: -5%;
+		    right: 6%;
+		    width: 38%;
+		}
+    }
